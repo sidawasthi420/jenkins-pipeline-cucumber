@@ -8,7 +8,7 @@
         <!--<parameter name="product" value="test_product"></parameter>-->
         <!--<parameter name="component" value="test_component"></parameter>-->
         <classes>
-            <class name="runner.TestRunner"/>
+            <class name="runner.testrunner"/>
         </classes>
     </test>
 </suite>
