@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"html:target/cucumber.html"}
 		)
 	
-public class testrunner {
+public class testrunner extends AbstractTestNGCucumberTests{
 	@Test
 	public void m1()
 	{
