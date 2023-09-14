@@ -11,6 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepDef"},
 		plugin = {"html:target/cucumber.html"}
 		)
+	
 public class testrunner {
 
-}
+	@test
+	public void m1()
+	{
+		System.out.println("Hello World");
+        }
